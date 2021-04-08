@@ -16,6 +16,7 @@
 		7C0E559C2472E3720066DD5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C0E559B2472E3720066DD5C /* Assets.xcassets */; };
 		7C0E559F2472E3720066DD5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C0E559D2472E3720066DD5C /* LaunchScreen.storyboard */; };
 		7C18F045248E7624005E15B5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C18F044248E7624005E15B5 /* GoogleService-Info.plist */; };
+		7C2DD74624BF6C7500D8D51D /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2DD74524BF6C7500D8D51D /* PostTableViewCell.swift */; };
 		7CE524D024925CDA0006F99C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE524CF24925CD90006F99C /* SettingsViewController.swift */; };
 		7CE524D224925F2D0006F99C /* LogonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE524D124925F2D0006F99C /* LogonViewController.swift */; };
 /* End PBXBuildFile section */
@@ -33,6 +34,7 @@
 		7C0E559E2472E3720066DD5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C0E55A02472E3720066DD5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C18F044248E7624005E15B5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7C2DD74524BF6C7500D8D51D /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		7CE524CF24925CD90006F99C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		7CE524D124925F2D0006F99C /* LogonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogonViewController.swift; sourceTree = "<group>"; };
 		DA6E436FEC5848D6073392A7 /* Pods_InstagramClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +79,7 @@
 				7C0E55942472E3700066DD5C /* FeedViewController.swift */,
 				7C0E55962472E3700066DD5C /* UploadViewController.swift */,
 				7CE524CF24925CD90006F99C /* SettingsViewController.swift */,
+				7C2DD74524BF6C7500D8D51D /* PostTableViewCell.swift */,
 				7C0E55982472E3700066DD5C /* Main.storyboard */,
 				7C0E559B2472E3720066DD5C /* Assets.xcassets */,
 				7C0E559D2472E3720066DD5C /* LaunchScreen.storyboard */,
@@ -219,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C2DD74624BF6C7500D8D51D /* PostTableViewCell.swift in Sources */,
 				7CE524D224925F2D0006F99C /* LogonViewController.swift in Sources */,
 				7C0E55972472E3700066DD5C /* UploadViewController.swift in Sources */,
 				7C0E55952472E3700066DD5C /* FeedViewController.swift in Sources */,
